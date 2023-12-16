@@ -1,0 +1,59 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ecff;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(to right, #004080, #0078d4);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background: linear-gradient(to right, #0078d4, #0056b3);
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+    nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            background: linear-gradient(to right, #0056b3, #004080);
+        }
+
+section {
+    padding: 20px;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    max-width: 60%; /* Adjusted to fit into 60% of the page */
+}
+
+footer {
+    background: linear-gradient(to right, #004080, #0078d4);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+/* Subtle scrolling effect */
+body {
+    scroll-behavior: smooth;
+}
