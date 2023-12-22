@@ -7,19 +7,19 @@
 }
 
 header {
-    background: linear-gradient(to right, #004080, #0078d4);
-    color: white;
-    text-align: center;
-    padding: 1em;
+    
+    color: black;
+    padding: 0.2em;
 }
 
 nav {
-    background: linear-gradient(to right, #0078d4, #0056b3);
+    background: linear-gradient(to right, #004080, #0078d4);
     overflow: hidden;
     transition: background-color 0.3s ease;
 }
 
     nav a {
+        
         float: left;
         display: block;
         color: white;
@@ -47,6 +47,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.logo {
+    display: inline-block;
+    width: 10%;
+    
+    
+}
+.logoText {
+    display: inline-block;
+    font-size: 2em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
 }
 
 section:hover {
