@@ -7,9 +7,61 @@
 }
 
 header {
-    
-    color: black;
+    background: linear-gradient(to top, #b8c2d1, #e0ecff);
     padding: 0.2em;
+}
+.firstHeader {
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+.logoText {
+
+    transform: translate(0em,-1em);
+    display: inline-block;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    padding-left: 15%
+}
+h1 {
+    -webkit-text-stroke: 1px #d4d4d4;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+
+h2 {
+   
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+.subTitle {
+    -webkit-text-stroke: 0.8px #d4d4d4;
+    font-weight: 600;
+}
+
+p {
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 nav {
@@ -54,12 +106,7 @@ footer {
     
     
 }
-.logoText {
-    display: inline-block;
-    font-size: 2em;
-    padding-top:0.5em;
-    padding-bottom: 0.5em;
-}
+
 
 section:hover {
     transform: scale(1.05);
