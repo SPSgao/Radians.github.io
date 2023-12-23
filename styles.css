@@ -4,6 +4,7 @@
     padding: 0;
     background-color: #e0ecff;
     overflow-x: hidden;
+
 }
 
 header {
@@ -62,6 +63,12 @@ p {
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
+}
+img {
+    width: 20em;
+    height: auto;
+    display: inline-block;
+    padding: 0.5em;
 }
 
 nav {
