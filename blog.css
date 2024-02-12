@@ -1,0 +1,169 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ecff;
+    overflow-x: hidden;
+
+}
+
+header {
+    background: linear-gradient(to top, #b8c2d1, #e0ecff);
+    padding: 0.2em;
+}
+.firstHeader {
+    background-image: url(resources/background.png);
+    background-size: cover;
+}
+
+.logoText {
+
+    transform: translate(0em,-1em);
+    display: inline-block;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    padding-left: 15%
+}
+h1 {
+    -webkit-text-stroke: 1px #d4d4d4;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+
+h2 {
+   
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+.subTitle {
+    -webkit-text-stroke: 0.8px #d4d4d4;
+    font-weight: 600;
+}
+
+p {
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+img {
+    width: 20em;
+    height: auto;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+nav {
+    background: linear-gradient(to right, #004080, #0078d4);
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+    nav a {
+        
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            background: linear-gradient(to right, #0056b3, #004080);
+        }
+
+article {
+    padding: 20px;
+    transition: transform 0.5s ease;
+    margin: 0 auto;
+    max-width: 60%; /* Adjusted to fit into 60% of the page */
+}
+
+footer {
+    background: linear-gradient(to right, #004080, #0078d4);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    width: 10%;
+    
+    
+}
+
+
+article:hover {
+    transform: scale(1.08);
+}
+
+/* Subtle scrolling effect */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top-padding: 100px;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Main Content Margin to Prevent Overlapping */
+.content {
+  margin-left: 270px; /* Adjust the margin to be greater than the sidebar width */
+}
+
+/* Sidebar Links */
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+        /* Change Link Color on Hover */
+.sidebar a:hover {
+    background-color: #555; /* Choose your preferred hover background color */
+}
+
+    /* Centering Text in Links */
+.sidebar a {
+    text-align: center;
+}
+
+        /* Adding Margin to Separate Links */
+.sidebar a + a {
+    margin-top: 5px; /* Adjust the margin as needed */
+}
+    /* Fixed Position for Sidebar */
+    .sidebar.fixed {
+        position: fixed;
+        top: 0;
+    }
