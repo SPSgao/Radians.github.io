@@ -1,10 +1,10 @@
 ﻿body {
     font-family: Arial, sans-serif;
+   
     margin: 0;
     padding: 0;
     background-color: #e0ecff;
     overflow-x: hidden;
-
 }
 
 header {
@@ -15,34 +15,33 @@ header {
     background-image: url(resources/background.png);
     background-size: cover;
 }
-
 .logoText {
-
+    -webkit-text-stroke: 1px #111;
     transform: translate(0em,-1em);
     display: inline-block;
-    color: #111;
+    color: azure;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
     padding-left: 15%
 }
+
 h1 {
-    -webkit-text-stroke: 1px #d4d4d4;
-    color: #111;
+    -webkit-text-stroke: 2.5px #111;
+    color: #e0ecff;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 3em;
+    margin-bottom: auto;
+    font-size: 4em;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    text-shadow: 0 0 40px white;
 }
-
-
 h2 {
-   
     color: #111;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
@@ -51,10 +50,11 @@ h2 {
     text-align: center;
 }
 .subTitle {
-    -webkit-text-stroke: 0.8px #d4d4d4;
+    color: #e0ecff;
+    -webkit-text-stroke: 0.8px #111;
     font-weight: 600;
-}
 
+}
 p {
     color: #685206;
     font-family: 'Helvetica Neue', sans-serif;
