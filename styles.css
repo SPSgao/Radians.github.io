@@ -28,7 +28,12 @@ header {
     text-align: center;
     padding-left: 15%
 }
-
+.pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 h1 {
     -webkit-text-stroke: 2.5px #111;
     color: #e0ecff;

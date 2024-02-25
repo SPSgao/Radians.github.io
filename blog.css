@@ -50,6 +50,9 @@ h2 {
     line-height: 1.5em;
     text-align: center;
 }
+h3 {
+    text-shadow: 3px 3px 1px #bfecf7;
+}
 .subTitle {
     -webkit-text-stroke: 0.8px #d4d4d4;
     font-weight: 600;
@@ -92,10 +95,20 @@ nav {
         }
 
 article {
-    padding: 20px;
+    padding: 1em;
     transition: transform 0.5s ease;
     margin: 0 auto;
     max-width: 60%; /* Adjusted to fit into 60% of the page */
+    background: #fff;
+    font-family: Montserrat, sans-serif;
+    
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: bold;
+    color: #009688;
+    padding: 40px;
+    box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px, inset #0cab9c 0 0 0 10px, inset #1fbdae 0 0 0 11px, inset #8ce9ff 0 0 0 16px, inset #48e4d6 0 0 0 17px, inset #e5f9f7 0 0 0 21px, inset #bfecf7 0 0 0 22px;
+    
 }
 
 footer {
@@ -110,13 +123,11 @@ footer {
 .logo {
     display: inline-block;
     width: 10%;
-    
-    
 }
 
 
 article:hover {
-    transform: scale(1.08);
+    transform: scale(1.04);
 }
 
 /* Subtle scrolling effect */
