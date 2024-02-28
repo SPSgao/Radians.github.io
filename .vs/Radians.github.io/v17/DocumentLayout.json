@@ -92,9 +92,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "blog(blocked).html",
-              "DocumentMoniker": "C:\\Users\\HP1\\Source\\Repos\\Radians.github.io\\subPages\\blog(blocked).html",
+              "DocumentMoniker": "C:\\Users\\HP1\\source\\repos\\Radians.github.io\\subPages\\blog(blocked).html",
               "RelativeDocumentMoniker": "subPages\\blog(blocked).html",
-              "ToolTip": "C:\\Users\\HP1\\Source\\Repos\\Radians.github.io\\subPages\\blog(blocked).html",
+              "ToolTip": "C:\\Users\\HP1\\source\\repos\\Radians.github.io\\subPages\\blog(blocked).html",
               "RelativeToolTip": "subPages\\blog(blocked).html",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAAHQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -110,8 +110,7 @@
               "RelativeToolTip": "CNAME",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T18:34:36.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T18:34:36.281Z"
             },
             {
               "$type": "Document",
@@ -121,7 +120,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\HP1\\source\\repos\\Radians.github.io\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAALAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2023-12-16T15:55:37.68Z",
               "EditorCaption": ""
@@ -136,8 +135,7 @@
               "RelativeToolTip": "blog.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-12T11:47:09.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-12T11:47:09.398Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "subPages\\about.html",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2023-12-19T20:03:25.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-19T20:03:25.504Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "styles.css",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2023-12-16T16:09:40.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-16T16:09:40.751Z"
             },
             {
               "$type": "Document",
