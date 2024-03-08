@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: Arial, sans-serif;
    
     margin: 0;
@@ -123,11 +123,15 @@ footer {
 .logo {
     display: inline-block;
     width: 10%;
-    
-    
 }
-
-
+.important {
+    font-weight: bold;
+}
+.small {
+    width: 4em;
+    height: auto;
+    display: inline-block;
+}
 section:hover {
     transform: scale(1.08);
 }
